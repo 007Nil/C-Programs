@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1534703450 source:/home/nil/Documents/Guess_Thr_Number_Game/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
