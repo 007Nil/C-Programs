@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="Guess_Thr_Number_Game" />
+		<Option title="Tic_Tac_Toe game" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Guess_Thr_Number_Game" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Tic_Tac_Toe game" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Guess_Thr_Number_Game" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Tic_Tac_Toe game" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -35,6 +35,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
+			<envvars />
 			<code_completion />
 			<debugger />
 		</Extensions>

@@ -1,4 +1,5 @@
 /*
+ Author : Sagnik Sarkar
 
 */
 #include <stdio.h>
@@ -17,37 +18,41 @@ int main()
     int User_Number ;
 
     //Outputting Title of The Game With declamer
-    printf("This is a guessing game.\n");
-    printf("I have chosen a number between 0 and 20 which you must guess\n");
-    printf("Then Lets Start The GAME!!!!!!\n");
+    printf("\nThis is a guessing game.\n");
+    printf("\nI have chosen a number between 0 and 20 which you must guess\n");
+    printf("\nThen Lets Start The GAME!!!!!!\n");
 
     //Starting loop
     for (int tries = 5 ;tries >= 1; tries--)
     {
-    printf("You have %i tries left\n",tries);
-    printf("Enter a  guess :");
+    printf("\nYou have %i tries left\n",tries);
+    printf("\nEnter a  guess :");
     scanf("%d", & User_Number);
     //Nasted if_else loop
     if (User_Number <= 20)
-    {
+     {
+     //Nested loop inside a nested loop
       if (User_Number  == random_Number)
       {
-      printf("Congratulations You guessed it\n");
+      printf("\nCongratulations You guessed it\n");
       break;
       }
+      //Nested loop inside a nested loop
       if(User_Number > random_Number)
-      printf("Sorry %d is worng. My number is less then that\n",User_Number);
+      printf("\nSorry %d is worng. My number is less then that\n",User_Number);
+      //Nested loop inside a nested loop
       if(User_Number < random_Number)
-      printf("Sorry %d is worng. My number is Greater then that\n",User_Number);
+      printf("\nSorry %d is worng. My number is Greater then that\n",User_Number);
 
-    }
-    else
-    {
-    printf("The Number is between 0 and 20\n");
-    printf("Please Try again\n");
-    }
+      }
+      else
+      {
+      printf("\nThe Number is between 0 and 20\n");
+      printf("\nPlease Try again\n");
+      }
     //Ending nested if_else loop
     }
-    printf("Hope You Enjoy The Game");
+    printf("\nMy selected Number was = %d\n",random_Number);
+    printf("\nHope You Enjoy The Game\n");
     return 0;
 }
