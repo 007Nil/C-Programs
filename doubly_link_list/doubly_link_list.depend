@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1558121825 source:/home/nil/Documents/C programming/Data structure/doubly_link_list/main.c
+	<stdio.h>
+	<stdlib.h>
+
