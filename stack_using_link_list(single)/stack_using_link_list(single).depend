@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1558131070 source:/home/nil/Documents/C programming/Data structure/stack_using_link_list(single)/main.c
+	<stdio.h>
+	<stdlib.h>
+
