@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1558169531 source:/home/nil/Documents/C programming/Data structure/Queue_using_single_link_list/main.c
+	<stdio.h>
+	<stdlib.h>
+
